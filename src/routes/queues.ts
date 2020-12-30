@@ -92,7 +92,14 @@ const getDataForQueues = async (
       return {
         name,
         counts: counts as Record<Status, number>,
-        jobs: jobs.map(formatJob),
+        jobs: jobs.filter(job => {
+          try {
+            formatJob(job);
+            return true;
+          } catch(e) {}
+
+          return false;
+        }).map(formatJob),
       }
     }),
   )
