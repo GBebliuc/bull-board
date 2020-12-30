@@ -9,7 +9,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
 
 const isProd = process.env.NODE_ENV === 'production'
-const devServerPort = 9000
+const devServerPort = 9001
 const basePath = '<%= basePath %>'
 const pkg = require('./package.json')
 

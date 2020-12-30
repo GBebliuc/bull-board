@@ -5,7 +5,6 @@ import { Details } from './Details/Details'
 import { JobActions } from './JobActions/JobActions'
 import s from './JobCard.module.css'
 import { Progress } from './Progress/Progress'
-import { Timeline } from './Timeline/Timeline'
 
 interface JobCardProps {
   job: AppJob
@@ -21,7 +20,7 @@ export const JobCard = ({ job, status, actions }: JobCardProps) => (
   <div className={s.card}>
     <div className={s.sideInfo}>
       <span title={`#${job.id}`}>#{job.id}</span>
-      <Timeline job={job} status={status} />
+      {/*<Timeline job={job} status={status} />*/}
     </div>
     <div className={s.contentWrapper}>
       <div className={s.title}>

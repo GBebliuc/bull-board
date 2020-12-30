@@ -1,5 +1,5 @@
 {
-  "name": "bull-board",
+  "name": "bull-board-imp",
   "description": "Bull queue UI for inspecting jobs",
   "version": "1.2.0",
   "keywords": [
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vcapretz/bull-board.git"
+    "url": "https://github.com/GBebliuc/bull-board.git"
   },
   "bugs": {
-    "url": "https://github.com/vcapretz/bull-board/issues"
+    "url": "https://github.com/GBebliuc/bull-board/issues"
   },
   "files": [
     "dist/**/*",
